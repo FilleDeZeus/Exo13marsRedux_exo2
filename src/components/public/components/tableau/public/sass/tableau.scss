@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+
+    thead {
+        background-color: black;
+        color: #fff;
+        font-weight: bold;
+
+        th {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    tbody {
+        tr {
+            border-bottom: 1px solid #ccc;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+    }
+}
